@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+
+.label {
+  font-size: 1.5rem;
+  position: relative;
+  top: 15px;
+  font-weight: bold;
+}
+.value {
+  font-size: 0.8rem;
+  position: relative;
+  top: 8px;
+  font-weight: bold;
+}
+
+
+.timerContainer {
+  width: 400px;
+  /* margin-bottom: 4rem; */
+}
+
+.cinema {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 600px;
+  left: 0;
+  opacity: 0.7;
+  transform: scale(1, 1);
+}
+
+.ripple {
+  -moz-animation: ripple 2s infinite;
+  -webkit-animation: ripple 2s infinite;
+  animation: ripple 2s infinite;
+}
+
+@keyframes ripple {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1.05);
+  }
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-20px);
+  }
+  60% {
+    transform: translateX(-10px);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .logoContainer {
+    width: 200px;
+  }
+  .label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .value {
+    font-size: 0.4rem;
+    font-weight: 500;
+  }
+  #myVideo {
+    /* transform: scale(1.2, 4); */
+    display: none;
+  }
+  #myPoster {
+    display: block;
+    object-fit: cover;
+    height: 120vh;
+    /* max-height: 120%; */
+  }
+  .bounce {
+    display: none;
+  }
+  .ripple {
+    display: none;
+  }
+  #root {
+    height: 120vh;
+  }
+
+  
+  .timerContainer {
+    max-width: 250px;
+  }
+  .cinema {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+ 
+  .label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .value {
+    font-size: 0.3rem;
+    font-weight: 500;
+  }
+  .movieLogo {
+    width: 200px;
+  }
+  .bounce {
+    display: none;
+  }
+  .ripple {
+    display: none;
+  }
+ 
+  .timerContainer {
+    width: 300px;
+  }
+
+}
+
+@media only screen and (max-width: 1600px) {
+ 
+  .timerContainer {
+    width: 300px;
+  }
+
+  .label {
+    font-size: 1.2rem;
+    position: relative;
+    top: 6px;
+    font-weight: bold;
+  }
+  .value {
+    font-size: 0.6rem;
+    position: relative;
+    top: -8px;
+    font-weight: 700;
+  }
+}

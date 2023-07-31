@@ -1,0 +1,88 @@
+{
+  "collections": [
+    {
+      "name": "NFT Name",
+      "movie": "Movie Name",
+      "type": "bidding",
+      "price": 10,
+      "thumbnail": "thumb1.png"
+    },
+    {
+      "name": "NFT Name",
+      "movie": "Movie Name",
+      "type": "selling",
+      "price": 10,
+      "thumbnail": "thumb2.png"
+    },
+    {
+      "name": "NFT Name",
+      "movie": "Movie Name",
+      "type": "bidding",
+      "price": 10,
+      "thumbnail": "thumb3.png"
+    },
+    {
+      "name": "NFT Name",
+      "movie": "Movie Name",
+      "type": "selling",
+      "price": 10,
+      "thumbnail": "thumb4.png"
+    },
+    {
+      "name": "NFT Name",
+      "movie": "Movie Name",
+      "type": "selling",
+      "price": 10,
+      "thumbnail": "thumb5.png"
+    },
+    {
+      "name": "NFT Name",
+      "movie": "Movie Name",
+      "type": "selling",
+      "price": 10,
+      "thumbnail": "thumb6.png"
+    },
+    {
+      "name": "NFT Name",
+      "movie": "Movie Name",
+      "type": "selling",
+      "price": 10,
+      "thumbnail": "thumb7.png"
+    },
+    {
+      "name": "NFT Name",
+      "movie": "Movie Name",
+      "type": "selling",
+      "price": 10,
+      "thumbnail": "thumb8.png"
+    },
+    {
+      "name": "NFT Name",
+      "movie": "Movie Name",
+      "type": "selling",
+      "price": 10,
+      "thumbnail": "thumb9.png"
+    },
+    {
+      "name": "NFT Name",
+      "movie": "Movie Name",
+      "type": "selling",
+      "price": 10,
+      "thumbnail": "thumb10.png"
+    },
+    {
+      "name": "NFT Name",
+      "movie": "Movie Name",
+      "type": "selling",
+      "price": 10,
+      "thumbnail": "thumb11.png"
+    },
+    {
+      "name": "NFT Name",
+      "movie": "Movie Name",
+      "type": "selling",
+      "price": 10,
+      "thumbnail": "thumb12.png"
+    }
+  ]
+}
